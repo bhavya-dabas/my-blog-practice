@@ -1,4 +1,4 @@
-/* Main stylesheet */
-body {
-  font-family: Arial, sans-serif;
+body.dark-theme {
+  background-color: #333;
+  color: #fff;
 }
