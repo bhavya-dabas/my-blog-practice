@@ -18,7 +18,8 @@ body.dark-theme {
 }
 header {
   margin: 20px;
-
+}
 .footer-widget {
   padding: 10px;
+  background-color: #f8f9fa;
 }
