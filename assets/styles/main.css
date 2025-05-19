@@ -1,3 +1,7 @@
+/* Main stylesheet */
+body {
+  font-family: Arial, sans-serif;
+}
 .subscribe-button {
   background-color: #28a745;
   color: white;
@@ -7,4 +11,11 @@
 }
 .subscribe-button:hover {
   background-color: #218838;
+}
+body.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+header {
+  margin: 20px;
 }
