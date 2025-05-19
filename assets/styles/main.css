@@ -18,4 +18,7 @@ body.dark-theme {
 }
 header {
   margin: 20px;
+
+.footer-widget {
+  padding: 10px;
 }
