@@ -184,7 +184,7 @@
     "test-exclude": "^6.0.0",
     "tmpl": "^1.0.5",
     "to-regex-range": "^5.0.1",
-    "type-detect": "^4.0.8",
+    "type-detect": "^4.1.0",
     "type-fest": "^0.21.3",
     "undici-types": "^6.21.0",
     "update-browserslist-db": "^1.1.3",
