@@ -1,0 +1,20 @@
+name: Release
+on:
+  push:
+    branches: [ main ]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install
+      - name: Bump version and create tag
+        uses: anothrNick/github-tag-action@1.67.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          default_bump: patch
