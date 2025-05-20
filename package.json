@@ -48,7 +48,7 @@
     "debug": "^4.4.1",
     "dedent": "^1.6.0",
     "deepmerge": "^4.3.1",
-    "detect-newline": "^3.1.0",
+    "detect-newline": "^4.0.1",
     "diff-sequences": "^29.6.3",
     "electron-to-chromium": "^1.5.155",
     "emittery": "^0.13.1",
